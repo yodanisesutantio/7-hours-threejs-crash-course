@@ -13,10 +13,10 @@ scene.add(cubeMesh);
 console.log(window.innerWidth, window.innerHeight);
 
 const camera = new THREE.PerspectiveCamera(
-  75,
+  35,
   window.innerWidth / window.innerHeight,
   0.1,
-  30
+  200
 );
 
 camera.position.z = 5;
